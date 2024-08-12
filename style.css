@@ -1,5 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
 * {
-	margin: 0 auto;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Inter", sans-serif;
 	background-color: rgb(0, 0, 0);
+	color: white;
 	max-width: 1440px;
+}
+
+.header-bg{
+	background: linear-gradient(to bottom, black, rgba(60, 60, 60, 0.515), black);
+}
+.header{
+	margin: 20px 150px;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.brand-logo{
+	font-size: 2em;
+	font-style: italic;
+	color: rgb(230, 83, 60);
+}
+
+.navbar-links{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 40px;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	box-sizing: border-box;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 39px;
+}
+
+.nav-item {
+	font-size: 1em;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+#active-item {
+	background-color: rgb(230, 83, 60);
+	padding: 10px 20px;
+	border-radius: 39px;
+}
+
+.banner{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.banner-left{
+	margin-top: 80px;
+	width: 420px;
+}
+
+.banner-left h1{
+	font-size: 4.5em;
+	line-height: 100%;
+}
+
+
+.shape{
+	font-family: 'Miama', sans-serif;
+	font-size: 2em;
+	font-weight: 300;
+	background: transparent;
+}
+
+.banner-left p{
+	margin: 20px 0px;
+	font-size: 0.8em;
+	line-height: 150%;
+	color: rgba(255, 255, 255, 0.5);
+	letter-spacing: 0.5px;
+}
+
+.btn{
+	font-size: 0.8em;
+	color: white;
+	font-weight: bold;
+	width: 150px;
+	height: 40px;
+	padding: 10px 20px;
+	border-radius: 42px;
+	margin-right: 20px;
+	
+}
+.btn-filled{
+	background: rgb(230, 83, 60);
+	border: none;
+}
+.btn-unfilled{
+	background: transparent;
+	border: 1px solid white;
+}
+
+.banner-right{
+	position: relative;
+}
+
+.banner-right img{
+	height:480px;
+}
+
+.sticker{
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	backdrop-filter: blur(20px);
+	background: rgba(255, 255, 255, 0.1);
+	padding: 10px 15px;
+}
+
+.sticker h2{
+	font-size: 1.5em;
+}
+
+.sticker p{
+	font-size: 0.5em;
+	color: rgba(255, 255, 255, 0.65);
+	letter-spacing: 1px;
+}
+
+.sticker-top{
+	position: absolute;
+	top: 150px;
+	right: 0px;
+}
+
+.sticker-bottom{
+	position: absolute;
+	bottom: 50px;
+	left: 0px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	justify-content: space-between;
+}
+
+.fa-circle{
+	color: rgb(230, 83, 60);
+	font-size: 2em;
 }
