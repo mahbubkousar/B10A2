@@ -123,8 +123,8 @@ body{
 .sticker{
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	border-radius: 12px;
-	backdrop-filter: blur(20px);
-	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	background: rgba(255, 255, 255, 0.01);
 	padding: 10px 15px;
 }
 
@@ -158,4 +158,41 @@ body{
 .fa-circle{
 	color: rgb(230, 83, 60);
 	font-size: 2em;
+}
+
+.section{
+	margin: 50px 150px;
+}
+
+.habits{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.section-title{
+	font-size: 2rem;
+	margin: 10px;
+}
+
+.section-secondary-title{
+	font-size: 1em;
+}
+.section-description{
+	font-size: 0.8rem;
+	margin: 10px;
+	color: rgba(255, 255, 255, 0.5);
+	letter-spacing: 0.3px;
+}
+
+.habits-body{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.habits-img img{
+	width: 150px;
+	border-radius: 50%;
+	margin-bottom: 20px;
 }
