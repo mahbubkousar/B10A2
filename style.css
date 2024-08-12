@@ -32,6 +32,7 @@ body{
 	font-size: 2em;
 	font-style: italic;
 	color: rgb(230, 83, 60);
+	cursor: pointer;
 }
 
 .navbar-links{
@@ -52,6 +53,7 @@ body{
 	font-size: 1em;
 	font-weight: bold;
 	margin-right: 20px;
+	cursor: pointer;
 }
 
 #active-item {
@@ -101,7 +103,7 @@ body{
 	padding: 10px 20px;
 	border-radius: 42px;
 	margin-right: 20px;
-	
+	cursor: pointer;
 }
 .btn-filled{
 	background: rgb(230, 83, 60);
@@ -161,7 +163,7 @@ body{
 }
 
 .section{
-	margin: 50px 150px;
+	margin: 100px 150px;
 }
 
 .habits{
@@ -195,4 +197,29 @@ body{
 	width: 150px;
 	border-radius: 50%;
 	margin-bottom: 20px;
+}
+
+.run{
+	display: flex;
+	justify-content: space-between;
+	border-radius: 18px;
+	background: rgb(34, 34, 34);
+	padding: 25px;
+}
+
+.run-left{
+	width: 400px;
+}
+.run-left h1{
+	font-size: 2.5em;
+	padding: 10px;
+}
+.run-left button{
+	margin-top: 10px;
+}
+
+.run-right img{
+	width: 320px;
+	height: 240px;
+	border-radius: 18px;
 }
