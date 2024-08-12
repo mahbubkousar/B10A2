@@ -35,6 +35,10 @@ body{
 	cursor: pointer;
 }
 
+.mobile-menu{
+	display: none;
+}
+
 .navbar-links{
 	list-style-type: none;
 	display: flex;
@@ -197,6 +201,7 @@ body{
 	width: 150px;
 	border-radius: 50%;
 	margin-bottom: 20px;
+	border: 3px solid rgb(32, 22, 24);
 }
 
 .run{
@@ -624,4 +629,324 @@ hr{
 .insta-one{
 	padding: 10px 0px;
 	font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 576px) {
+	body{
+		margin 0;
+	}
+	.header{
+		margin: 1em;
+		padding: 1em;
+	}
+	.web-nav{
+		display: none;
+	}
+	.nav-item{
+		display: flex;
+		justify-content: space-between;
+
+	} 
+		.mobile-menu{
+		display: block;
+	}
+	.banner{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.banner-left{
+	margin-top: 3em;
+	width: 350px;
+	}	
+
+	.banner-left h1{
+		font-size: 3em;
+		line-height: 100%;
+	}
+
+
+	.shape{
+		font-family: 'Miama', sans-serif;
+		font-size: 2em;
+		font-weight: 300;
+		background: transparent;
+	}
+
+	.banner-left p{
+		font-size: 0.7em;
+		line-height: 200%;
+		font-weight: 300;
+	}
+
+
+
+
+
+	.btn{
+	font-size: 0.8em;
+	color: white;
+	font-weight: bold;
+	width: 150px;
+	height: 40px;
+	padding: 8px 8px;
+	border-radius: 42px;
+	margin-right: 10px;
+}
+
+.section{
+	margin: 10px 15px;
+}
+
+.habits{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.section-title{
+	font-size: 2rem;
+	margin: 10px;
+}
+
+.section-secondary-title{
+	font-size: 1em;
+}
+.section-description{
+	font-size: 0.7rem;
+}
+
+.habits-body{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	margin-top: 50px;
+	width: 300px;
+}
+ 
+.habits-img img{
+	margin-top: 30px;
+}
+
+.run{
+	margin: 20px;
+		margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.run-left{
+	width: 300px;
+}
+
+.run-left button{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.training{
+	margin-top: 50px;
+}
+
+
+.t-image{
+	height: 100px;
+}
+.t-3{
+	display: none;
+}
+.t-6{
+	display: none;
+}
+.training-l1{
+	display: grid;
+	grid-template-columns: 1.1fr 0.9fr;
+}
+.training-l2{
+	display: grid;
+	grid-template-columns: 0.8fr 1.2fr;
+}
+
+.training-text-1{
+	position: relative;
+	font-size: 0.8em;
+	top: 70px;
+	left: 20px;
+	color: rgb(255, 255, 255);
+}
+
+.training-text-2{
+	position: relative;
+	font-size: 0.8em;
+	top: 20px;
+	left: 20px;
+}
+
+.training-text-3{
+	display: none;
+}
+
+.training-text-4{
+	position: relative;
+	font-size: 0.8em;
+	top: 60px;
+	left: 20px;
+}
+
+.training-text-5{
+	position: relative;
+	font-size: 0.8em;
+	top: 60px;
+	left: 20px;
+}
+
+.training-text-6{
+	display: none;
+}
+
+
+
+.bmi-bg {	
+	padding: 20px 20px;
+}
+
+.bmi-head{
+	margin: 50px 10px;
+}
+
+.bmi-main{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+
+.team{
+	margin: 30px;
+		margin-top: 50px;
+}
+
+.team-container{
+	margin-top: 50px;
+	width: 100%;
+	border-radius: 18px;
+	background: rgba(255, 255, 255, 0.1);
+	padding: 20px;
+	gap: 30px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.team-item-1{
+	height: 300px;
+}
+
+.team-item-2{
+	height: 300px;
+}
+
+.team-item-3{
+	height: 300px;
+}
+
+.team-item-4{
+	height: 300px;
+}
+
+.team-item-5{
+	height: 300px;
+}
+
+.team-item-6{
+	height: 300px;
+}
+
+.team-name{
+	top: 250px;
+}
+
+.team-position{
+	top: 250px;
+}
+
+
+ 
+.footer{
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-logo{
+	font-size: 3em;
+	font-style: italic;
+	color: rgb(230, 83, 60);
+}
+
+.footer-1{
+	width: 300px;
+}
+
+.footer-description{
+	margin-bottom: 30px;
+}
+
+.footer-2{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-right: 30px;
+}
+
+.copyright{
+	font-size: 0.8rem;
+	color: rgba(255, 255, 255, 0.5);
+	letter-spacing: 0.3px;
+	padding: 20px;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+.top-ten{
+	margin-top: 50px;
+}
+.top-list{
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+
+
+
+.top-one{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+	margin: 10px;
+	margin-top: 30px;
+}
+.top-one img{
+	width: 60px;
+}
+.top-one-img{
+	gap: 20px;
+}
+.top-one-img h1{
+	font-size: 1.5em;
+}
+.top-one-img img{
+	width: 90px;
+}
+.insta-one{
+	padding: 10px 0px;
+	font-size: 1em;
+}
 }
