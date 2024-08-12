@@ -173,12 +173,12 @@ body{
 }
 
 .section-title{
-	font-size: 2.rem;
+	font-size: 2.2rem;
 	margin: 10px;
 }
 
 .section-secondary-title{
-	font-size: 1em;
+	font-size: 1.3em;
 }
 .section-description{
 	font-size: 0.8rem;
@@ -321,4 +321,76 @@ body{
 	background-size: cover;
 	background-position: center;
 	box-shadow: inset 0 0 0 2000px rgba(0, 71, 255, 0.3);
+}
+
+.bmi-bg {	
+	background: rgb(34, 34, 34);
+	padding: 50px 150px;
+}
+
+.bmi-head{
+	margin: 30px 200px;
+}
+
+.bmi-main{
+	display: flex;
+	justify-content: space-between;
+	gap: 200px;
+}
+
+.bmi-left{
+	width: 450px;
+}
+.bmi-left h3 {
+	margin-bottom: 30px;
+}
+
+.bmi-right h3, .bmi-right p{
+	margin-bottom: 20px;
+}
+table, th, td{
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-collapse: collapse ;
+	padding: 15px 25px;
+	text-align: left;
+	font-weight: normal;
+}
+th{
+	font-size: 1em ;
+}
+
+td{
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 0.8em;
+}
+
+.calculator-form{
+    font-size: 1em;
+}
+.input-row1{
+    display: flex;
+    gap: 10px;
+}
+.input-row1 input, select{
+    margin: 5px 0px;
+}
+.input-row3{
+    margin-bottom: 20px;
+    width: 100%;
+}
+input[type=text], select{
+    width: 100%;
+	font-size: 1em;
+    padding: 15px 18px;
+    border-radius: 8px;
+	background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+}
+select{
+    border-radius: 8px;
+	font-size: 1em;
+	background: rgba(255, 255, 255, 0.1);
+	color: rgba(156, 156, 156, 0.6);
+	place
 }
