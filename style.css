@@ -565,3 +565,63 @@ hr{
 	font-weight: 300;
 	text-align: center;
 }
+.top-list{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 20px;
+}
+
+.top-list-item{
+	text-align: center;
+	border-radius: 20px;
+	border: 0.5px solid rgba(93, 93, 93, 0.274);
+	box-shadow: 12px 6px 15px -5px rgba(255,255,255,0.062);
+	
+}
+
+.list-rank{
+	width: 3em;
+	height: 3em;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	opacity: 0.7;
+}
+
+.list-img{
+	width: 6em;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.top-icon{
+	margin-bottom: 10px;
+	font-size: 1em;
+}
+.top-one{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+	margin: 50px;
+}
+.top-one img{
+	width: 80px;
+}
+.top-one-img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+.top-one-img h1{
+	font-size: 2.5em;
+}
+.top-one-img img{
+	width: 120px;
+	border-radius: 50%;
+}
+.insta-one{
+	padding: 10px 0px;
+	font-size: 1.5em;
+}
