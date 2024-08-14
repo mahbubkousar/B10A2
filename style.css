@@ -954,4 +954,10 @@ hr{
 	height: auto;
 	border-radius: 18px;
 }
+.btn-full{
+	width: 100%;
+}
+.hide-in-mobile{
+	display: none;
+}
 }
