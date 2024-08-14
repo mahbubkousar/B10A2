@@ -955,7 +955,9 @@ hr{
 	border-radius: 18px;
 }
 .btn-full{
-	width: 80%;
+	display: block;
+	margin: 0 auto;
+	width: 90%;
 }
 .hide-in-mobile{
 	display: none;
